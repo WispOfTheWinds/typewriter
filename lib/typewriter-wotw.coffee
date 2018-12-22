@@ -28,19 +28,19 @@ module.exports =
     Run.start()
 
     # Reset, start() will run again when pane is switched (e.g. away from settings)
-    @disposables.add atom.config.onDidChange 'typewriter.scopes', ->
+    @disposables.add atom.config.onDidChange 'typewriter-wotw.scopes', ->
       Run.stop()
 
-    @disposables.add atom.config.onDidChange 'typewriter.drawTextLeftAligned', ->
+    @disposables.add atom.config.onDidChange 'typewriter-wotw.drawTextLeftAligned', ->
       Run.stop()
 
-    @disposables.add atom.config.onDidChange 'typewriter.showGutter', ->
+    @disposables.add atom.config.onDidChange 'typewriter-wotw.showGutter', ->
       Run.stop()
 
-    @disposables.add atom.config.onDidChange 'typewriter.showScrollbar', ->
+    @disposables.add atom.config.onDidChange 'typewriter-wotw.showScrollbar', ->
       Run.stop()
 
-    @disposables.add atom.config.onDidChange 'typewriter.enabledForAllScopes', ->
+    @disposables.add atom.config.onDidChange 'typewriter-wotw.enabledForAllScopes', ->
       Run.stop()
 
     @disposables.add atom.config.onDidChange 'editor.fontSize', ->
@@ -57,7 +57,7 @@ module.exports =
         @disposables.add editor.onDidChangeGrammar ->
           # Reset first
           atom.views.getView(editor).setAttribute('style', '')
-          atom.views.getView(editor).setAttribute('data-typewriter', false)
+          atom.views.getView(editor).setAttribute('data-typewriter-wotw', false)
           # Then decide if the new grammar needs to be in typewriter mode
           Run.start()
 
