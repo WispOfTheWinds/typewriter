@@ -1,9 +1,9 @@
 {
-  "name": "typewriter",
-  "main": "./lib/typewriter",
+  "name": "typewriter-wotw",
+  "main": "./lib/typewriter-wotw",
   "version": "0.7.1",
-  "description": "A better writing experience for Atom",
-  "repository": "https://github.com/braver/typewriter",
+  "description": "A fork of a better writing experience for Atom",
+  "repository": "https://github.com/WispOfTheWinds/typewriter-wotw",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"

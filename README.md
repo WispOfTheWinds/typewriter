@@ -1,15 +1,18 @@
-# typewriter
+# typewriter-wotw
 
-### Improves the writing experience in Atom.
+This is a fork of [braver/typewriter](https://github.com/braver/typewriter).
+There are no differences... for now.
 
-* Centered layout
-* No gutter
-* No scrollbar (unless you hover over the editor)
-* Keeps tabs, tree-view, minimap, and etc.
-* Enables soft-wrapping for selected scopes
-* Enable for all file scopes or for the scopes you select
+## Improves the writing experience in Atom.
 
-### Documentation
+ - Centered layout
+ - No gutter
+ - No scrollbar (unless you hover over the editor)
+ - Keeps tabs, tree-view, minimap, and etc.
+ - Enables soft-wrapping for selected scopes
+ - Enable for all file scopes or for the scopes you select
+
+## Documentation
 
 typewriter uses Atom's `Settings > Editor > Preferred Line Length` setting to set the width of the centered column. 
 
