@@ -7,7 +7,6 @@ This is an active fork of
 
  - Centered layout
  - No gutter
- - No scrollbar (unless you hover over the editor)
  - Keeps tabs, tree-view, minimap, and etc.
  - Enables soft-wrapping for selected scopes
  - Enable for all file scopes or for the scopes you select
@@ -22,7 +21,7 @@ set the width of the centered column.
 
 By default it works for (GF-)Markdown, Latex and MediaWiki files. You can
 change what file scopes enable the typewriter plugin in the settings or have it
-enabled for all files scopes.
+enabled for all file scopes.
 
 ![](http://i.imgur.com/AjmeFCh.png)
 

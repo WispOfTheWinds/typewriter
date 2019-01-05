@@ -15,6 +15,7 @@ module.exports =
       type: 'boolean'
       default: false
     showScrollbar:
+      description: 'Hiding the scrollbar is currently broken according to reports, but feel free to try it.'
       type: 'boolean'
       default: false
     scopes:
