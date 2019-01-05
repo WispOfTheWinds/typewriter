@@ -1,7 +1,7 @@
 {
   "name": "typewriter-wotw",
   "main": "./lib/typewriter-wotw",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "A fork of a better writing experience for Atom",
   "repository": "https://github.com/WispOfTheWinds/typewriter-wotw",
   "license": "MIT",
